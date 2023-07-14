@@ -1,24 +1,24 @@
 const testimony = [
 	{
-		name: 'Event name',
-		review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo ex et eum id saepe voluptatem similique architecto exercitationem. Doloribus',
-		reviewer: 'Lorem ipsum',
+		name: 'Rapid Romance',
+		review: ' The programme was more engaging than I expected it to be. Thanks for being so flexible this whole time! Pepbox is an excellent choice for any kind of group size. ',
+		reviewer: 'Mark Zukerburg',
 		img_src:
-			'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80',
+			'/src/pages/Images/test1.webp',
 	},
 	{
-		name: 'Event name',
-		review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo ex et eum id saepe voluptatem similique architecto exercitationem. Doloribus',
-		reviewer: 'Lorem ipsum',
+		name: 'Rapid Romance',
+		review: 'Super experience! I would recommend any form of team building and engagement. Thanks, Pepbox team, for the excellent session and great time together. You will exceed our expectations ',
+		reviewer: 'Steve Jobs',
 		img_src:
-			'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80',
+			'/src/pages/Images/test2.jpg',
 	},
 	{
-		name: 'Event name',
-		review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo ex et eum id saepe voluptatem similique architecto exercitationem. Doloribus',
-		reviewer: 'Lorem ipsum',
+		name: 'Rapid Romance',
+		review: 'Super experience! I would recommend any form of team building and engagement. Thanks, Pepbox team, for the excellent session and great time together',
+		reviewer: 'Elon Musk',
 		img_src:
-			'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80',
+			'/src/pages/Images/test3.webp',
 	},
 ];
 

@@ -1,28 +1,25 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
+import '../pages/Main.css'
 
 const Navbar = () => {
-	return (
-		<nav className='flex w-full justify-between px-10'>
-			<span className='uppercase'>the</span>
-			<ul className='flex gap-10'>
-				<li>
-					<Link to='/'>Home</Link>
-				</li>
-				<li>
-					<Link to='/about-us'>About Us</Link>
-					
-				</li>
-				<li>
-					<Link to='/Events'>Events</Link>
-					
-				</li>
-				<li>
-					<Link to='/ContactUs'>Contact Us</Link>
-					
-				</li>
-			</ul>
-		</nav>
-	);
-};
+  return (
+    <nav className="navbar">
+      <span className="logo">
+        <Link to="/">THE HAPPENING EVENTS</Link>
+      </span>
+      <ul className="links">
+        <li>
+          <Link to="/about-us">About Us</Link>
+        </li>
+        <li>
+          <Link to="/Events">Events</Link>
+        </li>
+        <li>
+          <Link to="/ContactUs">Contact Us</Link>
+        </li>
+      </ul>
+    </nav>
+  )
+}
 
-export default Navbar;
+export default Navbar

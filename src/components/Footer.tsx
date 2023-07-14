@@ -1,5 +1,5 @@
-import '../pages/Events.css'; 
-
+import '../pages/Main.css'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -12,25 +12,46 @@ const Footer = () => {
       <div className="footer-section">
         <h3>Useful Links</h3>
         <ul>
-          <a href=""><li>Home</li></a>
-          <a href=""><li>About Us</li></a> 
-          <a href=""><li>Events</li></a> 
-          <a href=""><li>Contact Us</li></a> 
-
-          
+          <a href="">
+            <li>Home</li>
+          </a>
+          <a href="">
+            <li>
+              {' '}
+              <Link to="/about-us">About Us</Link>
+            </li>
+          </a>
+          <a href="">
+            <li>
+              <Link to="/Events">Events</Link>
+            </li>
+          </a>
+          <a href="">
+            <li>
+              <Link to="/ContactUs">Contact Us</Link>
+            </li>
+          </a>
         </ul>
       </div>
       <div className="footer-section">
         <h3>Social Media Links</h3>
         <ul>
-          <a href=""><li>FaceBoook</li></a> 
-          <a href=""><li>Twitter</li></a> 
-          <a href=""><li>Instagram</li></a> 
-          <a href=""><li>LinkedIn</li></a> 
+          <a href="">
+            <li>FaceBoook</li>
+          </a>
+          <a href="">
+            <li>Twitter</li>
+          </a>
+          <a href="">
+            <li>Instagram</li>
+          </a>
+          <a href="">
+            <li>LinkedIn</li>
+          </a>
         </ul>
       </div>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

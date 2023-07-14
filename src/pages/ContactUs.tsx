@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './Events.css'
+import './Main.css'
 import Footer from '../components/Footer';
 
 // import 'bootstrap/dist/css/bootstrap.css'

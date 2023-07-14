@@ -2,7 +2,7 @@
 // import './AboutUs.css'
 import { useState } from 'react';
 import Footer from '../components/Footer';
-import './Events.css'
+import './Main.css'
 
 // import 'bootstrap/dist/css/bootstrap.css'
 // import React from 'react'
