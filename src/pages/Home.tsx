@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+// import { useRef } from 'react'
 import Event from '../components/Event'
 import Testimony from '../components/Testimony'
 import events from '../data/Event'
@@ -7,10 +7,10 @@ import ContactUs from '../pages/ContactUs'
 import '../pages/Main.css'
 
 const Home = () => {
-  const contactRef = useRef(null)
-  const handleContactClick = () => {
-    contactRef.current.scrollIntoView({ behavior: 'smooth' })
-  }
+  // const contactRef = useRef(null)
+  // const handleContactClick = () => {
+  //   contactRef.current.scrollIntoView({ behavior: 'smooth' })
+  // }
   return (
     <main className="bg-black text-white">
       <section className="container ml-auto flex items-center w-full">
@@ -24,7 +24,7 @@ const Home = () => {
             events and helped people to make their imagination come alive
           </p>
           <a
-            onClick={handleContactClick}
+            
             className=" text-2xl border-2 border-[#c69d4d] hover:bg-[#AA771C] px-6 py-1.5 mt-5 rounded-md inline-block transition-all"
           >
             Contact Us
@@ -69,7 +69,7 @@ const Home = () => {
           ))}
         </div>
       </section>
-      <div ref={contactRef} className="Contact">
+      <div className="Contact">
         <ContactUs />
       </div>
     </main>
