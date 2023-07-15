@@ -9,7 +9,7 @@ import '/src/assets/Images/H1.jpg';
 import '/src/assets/Images/EV2.jpg';
 import '/src/assets/Images/Birthday.jpg';
 import '/src/assets/Images/Networking.jpg';
-import '/src/assets/Images/test1.webp';
+import '/src/assets/Images/Test1.webp';
 import '/src/assets/Images/test2.jpg';
 import '/src/assets/Images/test3.webp';
 import '/src/assets/Images/Contact.jpg';
