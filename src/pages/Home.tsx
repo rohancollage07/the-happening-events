@@ -33,7 +33,7 @@ const Home = () => {
         <div className="w-4/6 h-[calc(100vh-3rem)] ml-auto">
           <div className="relative h-full w-full">
             <img
-              src="/src/pages/Images/H1.jpg"
+              src="src/assets/Images/H1.jpg"
               alt="Your Image"
               className="h-full w-full object-cover"
             />

@@ -50,7 +50,7 @@ const App = () => {
         </form>
       </div>
       <div className="form-right">
-        <img src="/src/pages/Images/Contact.jpg" alt="Vertical Image" />
+        <img src="src/assets/Images/Contact.jpg" alt="Vertical Image" />
       </div>
     </div>
     <Footer/>

@@ -25,7 +25,7 @@ const App = () => {
       <section className="full-length ">
         <div className="full-length-photo">
           <img
-            src='./src/pages/Images/EV.webp'
+            src='src/assets/Images/EV.webp'
             alt="Full Length"
           />
           <div className="Happening-name">
@@ -47,16 +47,16 @@ const App = () => {
         </div>
         <div className="photo-row">
           <div className="photo-box">
-            <img src= '/src/pages/Images/photo1.jpg' alt="Photo 1" />
+            <img src= 'src/assets/Images/photo1.jpg' alt="Photo 1" />
           </div>
           <div className="photo-box">
-            <img src="/src/pages/Images/photo2.jpg" alt="Photo 2" />
+            <img src="src/assets/Images/photo2.jpg" alt="Photo 2" />
           </div>
           <div className="photo-box">
-            <img src="/src/pages/Images/photo3.jpg" alt="Photo 3" />
+            <img src="src/assets/Images/photo3.jpg" alt="Photo 3" />
           </div>
           <div className="photo-box">
-            <img src="/src/pages/Images/photo4.jpg" alt="Photo 4" />
+            <img src="src/assets/Images/photo4.jpg" alt="Photo 4" />
           </div>
         </div>
       </section>
@@ -66,19 +66,19 @@ const App = () => {
         </div>
         <div className="photo-row">
           <div className="photo-box">
-            <img src="/src/pages/Images/photo5.jpeg" alt="Photo 1" />
+            <img src="src/assets/Images/photo5.jpeg" alt="Photo 1" />
             <h1>Team Building</h1>
           </div>
           <div className="photo-box">
-            <img src="/src/pages/Images/photo6.jpeg" alt="Photo 2" />
+            <img src="src/assets/Images/photo6.jpeg" alt="Photo 2" />
           <h1>Critical Thinking</h1>
           </div>
           <div className="photo-box">
-            <img src="/src/pages/Images/photo7.jpeg" alt="Photo 3" />
+            <img src="src/assets/Images/photo7.jpeg" alt="Photo 3" />
           <h1>Ice breaking</h1>
           </div>
           <div className="photo-box">
-            <img src="/src/pages/Images/photo8.jpeg" alt="Photo 4" />
+            <img src="src/assets/Images/photo8.jpeg" alt="Photo 4" />
           <h1>Entertainment</h1>
           
           </div>
@@ -97,7 +97,7 @@ const App = () => {
               expertise they possess, They lead with vision, ensuring success.
             </p>
           </div>
-          <img src="/src/pages/Images/Management.webp" alt="Team1" />
+          <img src="src/assets/Images/Management.webp" alt="Team1" />
         </div>
         <div className="Team-container">
           <div className="Team-text">
@@ -108,7 +108,7 @@ const App = () => {
               They craft beautiful designs, setting them apart.
             </p>
           </div>
-          <img src="/src/pages/Images/Design.png" alt="Team1" />
+          <img src="src/assets/Images/Design.png" alt="Team1" />
         </div>
         <div className="Team-container">
           <div className="Team-text">
@@ -119,7 +119,7 @@ const App = () => {
               flair, They spread the brand's message, reaching everywhere.
             </p>
           </div>
-          <img src="/src/pages/Images/Marketing.jpg" alt="Team1" />
+          <img src="src/assets/Images/Marketing.jpg" alt="Team1" />
         </div>
       </section>
 
@@ -156,7 +156,7 @@ const App = () => {
         </form>
       </div>
       <div className="form-right">
-        <img src="/src/pages/Images/Contact.jpg" alt="Vertical Image" />
+        <img src="src/assets/Images/Contact.jpg" alt="Vertical Image" />
       </div>
     </div>
     </div>
