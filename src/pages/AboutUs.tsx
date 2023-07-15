@@ -1,5 +1,7 @@
 
 // import './AboutUs.css'
+
+
 import { useState } from 'react';
 import Footer from '../components/Footer';
 import './Main.css'
@@ -23,7 +25,7 @@ const App = () => {
       <section className="full-length ">
         <div className="full-length-photo">
           <img
-            src="/src/pages/Images/EV.webp"
+            src={'/EV.webp'}
             alt="Full Length"
           />
           <div className="Happening-name">
@@ -45,7 +47,7 @@ const App = () => {
         </div>
         <div className="photo-row">
           <div className="photo-box">
-            <img src="/src/pages/Images/photo1.jpg" alt="Photo 1" />
+            <img src= '/src/pages/Images/photo1.jpg' alt="Photo 1" />
           </div>
           <div className="photo-box">
             <img src="/src/pages/Images/photo2.jpg" alt="Photo 2" />
