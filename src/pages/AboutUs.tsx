@@ -25,7 +25,7 @@ const App = () => {
       <section className="full-length ">
         <div className="full-length-photo">
           <img
-            src={'/EV.webp'}
+            src='./src/pages/Images/EV.webp'
             alt="Full Length"
           />
           <div className="Happening-name">
