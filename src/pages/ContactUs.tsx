@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import './Main.css'
 import Footer from '../components/Footer';
+import '/src/assets/Images/Contact.jpg';
+
 
 // import 'bootstrap/dist/css/bootstrap.css'
 // import React from 'react'

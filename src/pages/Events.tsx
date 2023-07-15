@@ -1,8 +1,22 @@
 // import { useState, useRef } from 'react'
 import './Main.css'
 import Footer from '../components/Footer'
-// import 'bootstrap/dist/css/bootstrap.css'
-// import React from 'react'
+import '/src/assets/Images/EV2.jpg';
+import '/src/assets/Images/EV3.jpg';
+import '/src/assets/Images/p1.jpg';
+import '/src/assets/Images/p2.jpg';
+import '/src/assets/Images/p3.webp';
+import '/src/assets/Images/p4.png';
+import '/src/assets/Images/p5.jpg';
+import '/src/assets/Images/p6.jpg';
+import '/src/assets/Images/p7.jpg';
+import '/src/assets/Images/p8.jpg';
+import '/src/assets/Images/Birthday.jpg';
+import '/src/assets/Images/Networking.jpg';
+import '/src/assets/Images/Seminar.jpg';
+import '/src/assets/Images/Club.jpeg';
+import '/src/assets/Images/Contact.jpg';
+
 
 const App = () => {
   // const [name, setName] = useState('')
@@ -22,7 +36,7 @@ const App = () => {
     <div className="bg-black">
       <section className="full-length ">
         <div className="full-length-photo">
-          <img src="/src/pages/Images/EV2.jpg" alt="Full Length" />
+          <img src="src/assets/Images/EV2.jpg" alt="Full Length" />
           <div className="Rapid-name">
             <h1>Rapid Romance</h1>
           </div>
@@ -51,7 +65,7 @@ const App = () => {
               implement your imagination alive.
             </p>
           </div>
-          <img src="/src/pages/Images/EV3.jpg" alt="EV" />
+          <img src="src/assets/Images/EV3.jpg" alt="EV" />
         </div>
       </section>
 
@@ -67,30 +81,30 @@ const App = () => {
         </div>
         <div className="photo-row">
           <div className="photo-box">
-            <img src="/src/pages/Images/p1.jpg" alt="Photo 1" />
+            <img src="src/assets/Images/p1.jpg" alt="Photo 1" />
           </div>
           <div className="photo-box">
-            <img src="/src/pages/Images/p2.jpg" alt="Photo 2" />
+            <img src="src/assets/Images/p2.jpg" alt="Photo 2" />
           </div>
           <div className="photo-box">
-            <img src="/src/pages/Images/p3.webp" alt="Photo 3" />
+            <img src="src/assets/Images/p3.webp" alt="Photo 3" />
           </div>
           <div className="photo-box">
-            <img src="/src/pages/Images/p4.png" alt="Photo 4" />
+            <img src="src/assets/Images/p4.png" alt="Photo 4" />
           </div>
         </div>
         <div className="photo-row">
           <div className="photo-box">
-            <img src="/src/pages/Images/p5.jpg" alt="Photo 1" />
+            <img src="src/assets/Images/p5.jpg" alt="Photo 1" />
           </div>
           <div className="photo-box">
-            <img src="/src/pages/Images/p6.jpg" alt="Photo 2" />
+            <img src="src/assets/Images/p6.jpg" alt="Photo 2" />
           </div>
           <div className="photo-box">
-            <img src="/src/pages/Images/p7.jpg" alt="Photo 3" />
+            <img src="src/assets/Images/p7.jpg" alt="Photo 3" />
           </div>
           <div className="photo-box">
-            <img src="/src/pages/Images/p8.jpg" alt="Photo 4" />
+            <img src="src/assets/Images/p8.jpg" alt="Photo 4" />
           </div>
         </div>
       </section>
@@ -100,22 +114,22 @@ const App = () => {
         </div>
         <div className="photo-row">
           <div className="photo-box">
-            <img src="/src/pages/Images/Birthday.jpg" alt="Photo 1" />
+            <img src="src/assets/Images/Birthday.jpg" alt="Photo 1" />
             <h1>Birthday</h1>
             <button > Contact Us</button>
           </div>
           <div className="photo-box">
-            <img src="/src/pages/Images/Networking.jpg" alt="Photo 2" />
+            <img src="src/assets/Images/Networking.jpg" alt="Photo 2" />
             <h1>Networking</h1>
             <button > Contact Us</button>
           </div>
           <div className="photo-box">
-            <img src="/src/pages/Images/Seminar.jpg" alt="Photo 3" />
+            <img src="src/assets/Images/Seminar.jpg" alt="Photo 3" />
             <h1>Seminars</h1>
             <button > Contact Us</button>
           </div>
           <div className="photo-box">
-            <img src="/src/pages/Images/Club.jpeg" alt="Photo 4" />
+            <img src="src/assets/Images/Club.jpeg" alt="Photo 4" />
             <h1>Clubbing</h1>
             <button > Contact Us</button>
           </div>
@@ -156,7 +170,7 @@ const App = () => {
             </form>
           </div>
           <div className="form-right">
-            <img src="/src/pages/Images/Contact.jpg" alt="Vertical Image" />
+            <img src="src/assets/Images/Contact.jpg" alt="Vertical Image" />
           </div>
         </div>
       </div>

@@ -5,6 +5,21 @@
 import { useState } from 'react';
 import Footer from '../components/Footer';
 import './Main.css'
+import '/src/assets/Images/EV.webp';
+import '/src/assets/Images/photo1.jpg';
+import '/src/assets/Images/photo2.jpg';
+import '/src/assets/Images/photo3.jpg';
+import '/src/assets/Images/photo4.jpg';
+import '/src/assets/Images/photo5.jpg';
+import '/src/assets/Images/photo6.jpg';
+import '/src/assets/Images/photo7.jpg';
+import '/src/assets/Images/photo8.jpg';
+import '/src/assets/Images/Management.webp';
+import '/src/assets/Images/Design.png';
+import '/src/assets/Images/Marketing.jpg';
+import '/src/assets/Images/Contact.jpg';
+
+
 
 // import 'bootstrap/dist/css/bootstrap.css'
 // import React from 'react'
